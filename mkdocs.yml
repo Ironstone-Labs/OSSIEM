@@ -1,0 +1,81 @@
+# Project information
+site_name: 'Open Source SOC'
+site_description: 'Docker Compose files to create an open source Security Operations Center (SOC) for testing and learning.'
+site_author: 'Ironstone Labs'
+site_url: 'https://ironstone-labs.github.io/OSSIEM/'
+
+# Repository
+repo_name: 'OSSIEM'
+repo_url: 'https://github.com/Ironstone-Labs/OSSIEM/'
+
+# Copyright
+copyright: 'Copyright &copy; 2021-2026 Ironstone Labs<br>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+
+# Navigation Menu
+nav:
+    - About: 'index.md'
+    - Resources: 'resources.md'
+
+# Configuration
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    admonition:
+      cite: octicons/link-external-16
+    logo: material/file-document-edit-outline
+
+# Customization
+extra:
+  social:
+    - icon: material/cloud
+      link: https://ironstoneinfosec.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/Ironstone-Labs
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.blocks.caption
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+      use_pygments: true
+      auto_title: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
