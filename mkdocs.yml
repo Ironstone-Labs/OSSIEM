@@ -14,6 +14,7 @@ copyright: 'Copyright &copy; 2021-2026 Ironstone Labs<br>This work is licensed u
 # Navigation Menu
 nav:
     - About: 'index.md'
+    - Roadmap: 'roadmap.md'
     - Resources: 'resources.md'
 
 # Configuration
