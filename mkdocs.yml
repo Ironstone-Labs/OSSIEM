@@ -9,13 +9,70 @@ repo_name: 'OSSIEM'
 repo_url: 'https://github.com/Ironstone-Labs/OSSIEM/'
 
 # Copyright
-copyright: 'Copyright &copy; 2021-2026 Ironstone Labs<br>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+copyright: 'Copyright &copy; 2025-2026 Ironstone Labs<br>This documentation is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 
 # Navigation Menu
 nav:
-    - About: 'index.md'
-    - Roadmap: 'roadmap.md'
-    - Resources: 'resources.md'
+  - About: 'index.md'
+  - Roadmap: 'roadmap.md'
+  - Quick Start: 'quickstart/index.md'
+  - SOC Fortress:
+    - Overview: 'socfortress/overview.md'
+    - CoPilot:
+      - Overview: 'socfortress/copilot/overview.md'
+      - Installation: 'socfortress/copilot/installation.md'
+      - Configuration: 'socfortress/copilot/configuration.md'
+      - Usage: 'socfortress/copilot/usage.md'
+    - Talon:
+      - Overview: 'socfortress/talon/overview.md'
+      - Installation: 'socfortress/talon/installation.md'
+      - Configuration: 'socfortress/talon/configuration.md'
+      - Usage: 'socfortress/talon/usage.md'
+  - Cloudflared:
+    - Overview: 'cloudflared/overview.md'
+    - Installation: 'cloudflared/installation.md'
+    - Configuration: 'cloudflared/configuration.md'
+    - Usage: 'cloudflared/usage.md'
+  - SOAR:
+    - Overview: 'soar/overview.md'
+    - Shuffle:
+      - Overview: 'soar/shuffle/overview.md'
+      - Installation: 'soar/shuffle/installation.md'
+      - Configuration: 'soar/shuffle/configuration.md'
+      - Usage: 'soar/shuffle/usage.md'
+    - n8n:
+      - Overview: 'soar/n8n/overview.md'
+      - Installation: 'soar/n8n/installation.md'
+      - Configuration: 'soar/n8n/configuration.md'
+      - Usage: 'soar/n8n/usage.md'
+  - Threat Intelligence:
+    - Overview: 'threatintelligence/overview.md'
+    - MISP:
+      - Overview: 'threatintelligence/misp/overview.md'
+      - Installation: 'threatintelligence/misp/installation.md'
+      - Configuration: 'threatintelligence/misp/configuration.md'
+      - Usage: 'threatintelligence/misp/usage.md'
+    - OpenCTI:
+      - Overview: 'threatintelligence/opencti/overview.md'
+      - Installation: 'threatintelligence/opencti/installation.md'
+      - Configuration: 'threatintelligence/opencti/configuration.md'
+      - Usage: 'threatintelligence/opencti/usage.md'
+  - CISO Assistant:
+    - Overview: 'cisoassistant/overview.md'
+    - Installation: 'cisoassistant/installation.md'
+    - Configuration: 'cisoassistant/configuration.md'
+    - Usage: 'cisoassistant/usage.md'
+  - Adversarial Exposure Validation:
+    - Overview: 'adversarialexposurevalidation/overview.md'
+    - Installation: 'adversarialexposurevalidation/installation.md'
+    - Configuration: 'adversarialexposurevalidation/configuration.md'
+    - Usage: 'adversarialexposurevalidation/usage.md'
+  - AC-Hunter:
+    - Overview: 'ac-hunter/overview.md'
+    - Installation: 'ac-hunter/installation.md'
+    - Configuration: 'ac-hunter/configuration.md'
+    - Usage: 'ac-hunter/usage.md'
+  - Resources: 'resources.md'
 
 # Configuration
 theme:
